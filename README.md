@@ -18,10 +18,12 @@ A Model Context Protocol (MCP) server that enables AI assistants to search and a
 
 Add the MCP server configuration to your AI assistant's MCP settings file:
 
+> **Note**: This MCP server only supports stdio transport. SSE transport is not supported.
+
 ```json
 "datadog-mcp-server": {
   "command": "npx",
-  "args": ["-y", "@i524/datadog-mcp-server", "--stdio"],
+  "args": ["-y", "@i524/datadog-mcp-server"],
   "env": {
     "DD_API_KEY": "<your-datadog-api-key>",
     "DD_APP_KEY": "<your-datadog-app-key>"
