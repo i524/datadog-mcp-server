@@ -1,7 +1,9 @@
 {
-  "name": "datadog-mcp-server",
+  "name": "@i524/datadog-mcp-server",
   "module": "src/index.ts",
   "type": "module",
+  "bin": "dist/index.js",
+  "version": "0.0.1",
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -15,5 +17,9 @@
   },
   "scripts": {
     "build": "bun build src/index.ts > dist/index.js"
-  }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
 }
