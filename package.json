@@ -6,6 +6,7 @@
     "datadog-mcp-server": "dist/index.js"
   },
   "version": "0.0.1",
+  "license": "MIT",
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -22,6 +23,7 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ]
 }

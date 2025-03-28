@@ -54,3 +54,7 @@ Search logs from Datadog with flexible filtering options.
   "filterTo": "2025-01-02T00:00:00Z"
 }
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
