@@ -20,7 +20,7 @@
     "zod": "^3.24.2"
   },
   "scripts": {
-    "build": "bun build src/index.ts > dist/index.js"
+    "build": "bun build --packages=external src/index.ts > dist/index.js"
   },
   "files": [
     "dist",
