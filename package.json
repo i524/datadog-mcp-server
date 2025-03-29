@@ -5,7 +5,7 @@
   "bin": {
     "datadog-mcp-server": "cli.js"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "devDependencies": {
     "@types/bun": "latest",
