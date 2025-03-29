@@ -3,7 +3,7 @@
   "module": "src/index.ts",
   "type": "module",
   "bin": {
-    "datadog-mcp-server": "cli.js"
+    "datadog-mcp-server": "cli.cjs"
   },
   "version": "0.0.3",
   "license": "MIT",
